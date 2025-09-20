@@ -17,7 +17,7 @@ api_key = st.sidebar.text_input("API Key", type="password")
 base_url = st.sidebar.text_input("Base URL", "https://api.navy/v1")
 
 # 模型選擇
-models = ["flux.1-schnell", "flux.1.1-por", "flux.latest"]
+models = ["flux.1-schnell", "flux.1.1-por", "flux.1-krea-dev", "flux.1-kontext-pro", "flux.1-kontext-max"]
 model = st.sidebar.selectbox("選擇模型", models, index=0)
 
 # 根據模型動態配置 style 和 quality
