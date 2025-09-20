@@ -34,9 +34,6 @@ qualities_dict = {
     "flux.1-kontext-pro": ["standard", "hd"]
     "flux.1-kontext-max": ["standard", "hd"]
 }
-}
-}
-}
 
 style = st.sidebar.selectbox("選擇風格", styles_dict[model])
 quality = st.sidebar.selectbox("選擇品質", qualities_dict[model])
