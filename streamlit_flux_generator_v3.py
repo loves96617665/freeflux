@@ -30,6 +30,12 @@ qualities_dict = {
     "flux.1-schnell": ["standard", "hd", "ultra"],
     "flux.1.1-por": ["hd", "ultra"],
     "flux.latest": ["standard", "hd"]
+    "flux.1-krea-dev": ["standard", "hd"]
+    "flux.1-kontext-pro": ["standard", "hd"]
+    "flux.1-kontext-max": ["standard", "hd"]
+}
+}
+}
 }
 
 style = st.sidebar.selectbox("選擇風格", styles_dict[model])
